@@ -33,6 +33,6 @@ terug = terug % 5
 
 munt2 = terug // 2
 print("Aantal munten van 2 eurocent is", munt2)
-terug = terug % 2
+terug %= 2 # Shortcut voor `terug = terug % 2`
 
 print("Aantal munten van 1 eurocent is", terug)
