@@ -7,6 +7,7 @@ lijst.sort()
 
 prijs = 24.95
 inkoop = 0.6 * prijs
-aantal_boeken = 60
+aantal_boeken = int(input("Hoeveel boeken?"))
 order = aantal_boeken * inkoop + 3 + .75 * (aantal_boeken - 1)
 print("De rekening bedraagt", order)
+
