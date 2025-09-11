@@ -15,24 +15,10 @@ terug = betaald - prijs
 
 print("Je krijgt", terug, "terug!")
 
-munt50 = terug // 50 # Hoeveel muntjes passen hier in?
-print("Aantal munten van 50 eurocent is", munt50) # Print dit
-terug = terug % 50 # Update het terug te geven bedrag
+for munt in [50,20,10,5,2]:
 
-munt20 = terug // 20
-print("Aantal munten van 20 eurocent is", munt20)
-terug = terug % 20
-
-munt10 = terug // 10
-print("Aantal munten van 10 eurocent is", munt10)
-terug = terug % 10
-
-munt5 = terug // 5
-print("Aantal munten van 5 eurocent is", munt5)
-terug = terug % 5
-
-munt2 = terug // 2
-print("Aantal munten van 2 eurocent is", munt2)
-terug %= 2 # Shortcut voor `terug = terug % 2`
+    aantal_munt = terug // munt # Hoeveel muntjes passen hier in?
+    print(f"Aantal munten van {munt} eurocent is", aantal_munt) # Print dit
+    terug %= munt # Update het terug te geven bedrag
 
 print("Aantal munten van 1 eurocent is", terug)
