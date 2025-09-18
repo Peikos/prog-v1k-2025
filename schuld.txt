@@ -1,0 +1,4 @@
+Daan, 12.75
+Jules, 10.25
+Oussama, 7.95
+Michel, 120.00
