@@ -83,3 +83,26 @@ dobbelsteen()
 print(123, 456) # heeft een spatie
 print(123, 456, sep="") # onderdruk de spatie
 print(123, 456, sep="?") # vervang de spatie
+
+
+
+# Nope
+# i = 0
+# while True:
+#     print("Voor", i)
+#     i += 7
+#     if i % 2 == 0:
+#         continue
+#     if '8' in str(i):
+#         break
+#     print("Na", i)
+
+
+invoer = ""
+
+while not invoer.isnumeric():
+    invoer = input("Geef je leeftijd")
+
+leeftijd = int(invoer)
+
+print("je bent", leeftijd)
