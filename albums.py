@@ -46,7 +46,12 @@ def mijn_albums():
 
 # Exporeer een CSV met de gegevens van alle albums in mijn collectie
 
-def export_collection():
+def export_collection_csv():
+    pass
+    
+# Exporeer een JSON file met de gegevens van alle albums in mijn collectie
+
+def dump_json():
     pass
 
 # Importeer een JSON file om de albumlijst uit te breiden
